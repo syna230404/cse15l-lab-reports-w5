@@ -1,10 +1,12 @@
 # Lab Report 5
 
-## Buggy Code
+## Part 1
+
+### Buggy Code
 
 ![Image](Screenshot 2024-02-13 at 22-05-23 Team Snake Lab 4.png)
 
-## JUnit Test Fail
+### JUnit Test Fail
 
 ```
 @Test
@@ -14,7 +16,7 @@ public void reveredBig() {
 }
 ```
 
-## JUnit Test Pass
+### JUnit Test Pass
 
 ```
 @Test
@@ -24,3 +26,24 @@ public void reveredSmall() {
 }
 ```
 
+### Fail Output
+![Image](Screenshot 2024-02-13 at 22-13-57 Team Snake Lab 4.png)
+
+### Bug Before Fix
+
+```
+for(int i = 0; i < arr.length; ++i) {
+  newArray[arr.length - i - 1] = arr[i];
+}
+```
+
+### Fixed Code
+```
+for(int i = 0; i < arr.length/2; i += 1) {
+  int temp = arr[i];
+  arr[i] = arr[arr.length - i - 1];
+  arr[arr.length - i - 1] = temp;
+}
+```
+
+## Part 2
