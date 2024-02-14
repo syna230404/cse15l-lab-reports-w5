@@ -4,7 +4,7 @@
 
 ### Buggy Code
 
-![Image](Screenshot 2024-02-13 at 22-05-23 Team Snake Lab 4.png)
+![Image]("Screenshot 2024-02-13 at 22-05-23 Team Snake Lab 4".png)
 
 ### JUnit Test Fail
 
@@ -27,7 +27,7 @@ public void reveredSmall() {
 ```
 
 ### Fail Output
-![Image](Screenshot 2024-02-13 at 22-13-57 Team Snake Lab 4.png)
+![Image]("Screenshot 2024-02-13 at 22-13-57 Team Snake Lab 4".png)
 
 ### Bug Before Fix
 
